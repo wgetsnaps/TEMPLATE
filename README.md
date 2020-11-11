@@ -1,23 +1,29 @@
-# wget snapshot of TEMPLATE_SOMETHING
-
-Updated: 2020-11-10
-
-This repo contains a working mirror of [SOME_SITE](https://example.com/SOME_SITE), which is LOREM_IPSUM, and the wget script and other code to reproduce that mirror.
-
-- Mirror: https://wgetsnaps.github.io/SOME_SITE/
-- Original: https://example.com/SOME_SITE
-- Wayback: https://web.archive.org/web/*/https://example.com/SOME_SITE/
+# wget snapshot of EXAMPLE_SITE (template repo)
 
 
-## Script
+This repo contains a working mirror of [EXAMPLE_SITE](https://example.com) – as well as the [wget script and other code](#mark-code) to reproduce the mirror.
 
-See [wgetsnap.sh](wgetsnap.sh) to see the code.
+- Mirror: https://wgetsnaps.github.io/TEMPLATE/
+- Original: https://example.com/
+- Wayback: https://web.archive.org/web/*/https://example.com/
+- Updated at: 2020-11-10
+
+<a href="https://example.com/" alt="LOREM_IPSUM">
+    <img src="assets/site-homepage.png" alt="site-homepage.png">
+</a>
+
+
+<a id="mark-code" name="mark-code"></a>
+
+## Code and data
+
+See [wgetsnap.sh](wgetsnap.sh) to check out the `wget` code for mirroring the site.
 
 
 ## Related
 
-- related link https://example.com
-- related link 2 https://example.com
+- Related link: https://example.com
+- related link 2: https://www.gnu.org/software/wget/manual/wget.html
 
 
 ## Developer notes
